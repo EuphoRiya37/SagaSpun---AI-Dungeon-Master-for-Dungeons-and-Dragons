@@ -1,8 +1,26 @@
-flask==3.0.2
-flask-socketio==5.3.6
-flask-cors==4.0.0
-flask-jwt-extended==4.6.0
-werkzeug==3.0.1
+# Flask Backend Dependencies
+Flask==2.3.0
+Flask-CORS==4.0.0
+python-dotenv==1.0.0
 requests==2.31.0
-python-engineio==4.9.0
-python-socketio==5.11.1
+pydantic==2.0.0
+
+# Ollama & LLM Integration
+ollama==0.1.0
+langchain==0.1.0
+
+# Database
+SQLAlchemy==2.0.0
+psycopg2-binary==2.9.0  # PostgreSQL
+
+# WebSocket Support
+python-socketio==5.9.0
+python-engineio==4.5.0
+
+# Utilities
+python-dateutil==2.8.0
+click==8.1.0
+
+# Testing
+pytest==7.4.0
+pytest-flask==1.2.0
